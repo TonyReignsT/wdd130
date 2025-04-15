@@ -363,3 +363,13 @@ form button {
   font-family: var(--text-font-style);
   font-size: 1rem;
 }
+
+/* contact footer  */
+ .wirelink {
+  text-decoration: none;
+  color: var(--accent2-color);
+  font-family: var(--text-font-style);
+  font-weight: bold;
+  font-size: 1.2rem;
+  
+}
