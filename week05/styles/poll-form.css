@@ -1,0 +1,42 @@
+:root {
+  --text-font-style: Quattrocento Sans; 
+  --primary-color: #22577A;
+  --secondary-color: #38A3A5;
+  --accent2-color: #C7F9CC;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 auto;
+  width: 650px;
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1.5em;
+  color: var(--primary-color);
+  text-align: center;
+}
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+
+body {
+  font-family: var(--text-font-style);
+  font-size: 1.2em;
+  color: var(--primary-color);
+  background: var(--accent2-color);
+}
